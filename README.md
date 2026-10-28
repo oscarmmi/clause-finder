@@ -27,7 +27,7 @@ The retriever is deterministic and runs locally. It chunks agreement text around
 
 ## Run locally
 
-Requirements: PHP 8.3+, Composer, Node.js 22+, and SQLite (included with PHP).
+Requirements: PHP 8.4.1+, Composer, Node.js 22+, and SQLite (included with PHP).
 
 ```bash
 composer install
@@ -63,7 +63,7 @@ The Pest/PHPUnit suite verifies that “limitation of liability” retrieves and
 
 ## Stack
 
-- Laravel 13 and PHP 8.3+
+- Laravel 13 and PHP 8.4.1+
 - Vue 3, Inertia, TypeScript, and Tailwind CSS
 - SQLite for local development
 - TF-IDF and cosine similarity implemented in PHP
